@@ -1,0 +1,283 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #f8f8fa;
+}
+
+header {
+  background-color: #4516fe;
+  height: 70vh;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 55px;
+  align-items: center;
+
+}
+
+.nav-item {
+  margin-top: 30px;
+  padding-right: 20px;
+  color: #fff;
+}
+
+.nav-item-active {
+  color: #4516fe;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+nav svg {
+  margin-left: 20px;
+}
+
+.logo {
+  position: absolute;
+  margin-left: 55px;
+  top: 40px;
+}
+
+.header-text {
+  margin-top: 100px;
+  margin-left: 55px;
+}
+
+.header-text h2 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.header-text p {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.header-image {
+  position: absolute;
+  top: 80px;
+  right: 0;
+}
+
+.companies{
+  display: flex;
+  margin-top: 20px;
+  margin-right: 45%;
+  margin-left: 55px;
+  justify-content: space-between;
+}
+
+.company-items{
+  color: #000;
+  font-weight:900;
+  text-decoration: none;
+}
+
+.api{
+  margin: 0px 55px;
+}
+
+.api-heading{
+  margin-top: 80px;
+}
+
+.cards{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.card-active{
+  background-color: #fff;
+  padding: 30px 10px;
+  border-radius: 20px;
+}
+
+.card-head-active{
+  color: #5a31fc;
+}
+
+.blog-heading{
+  margin-left: 55px;
+  margin-top: 60px;
+}
+
+.blog-cards{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.blog-card{
+  display: inline-flex;
+  
+  margin-top: 20px;
+  
+}
+
+.blog-content{
+  background-color: #fff;
+  padding-right: 120px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 50px;
+  margin-bottom: 7px;
+}
+
+.blog-content h6{
+  color: #5a31fc;
+  margin-top: 30px;
+  
+}
+
+.blog-content h3{
+  padding-top: 15px;
+}
+
+.blog-bottom{
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 19%;
+}
+
+.blog-author{
+  position: absolute;
+  margin-left: 27%;
+  margin-top: 19%;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.faq-section{
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-content{
+  display: block;
+  background-color: #e9edff;
+  align-self: center;
+  padding: 31px;
+  padding-right: 300px;
+
+}
+
+.faq-content h2{
+  margin-left: 55px;
+  font-size: 30px;
+}
+
+.faq-content h4{
+  padding-top: 20px;
+  margin-left: 55px;
+  font-size: 10px;
+}
+
+.faq-content :nth-child(3){
+  font-size: 15px;
+}
+
+.faq-content button{
+  margin-left: 55px;
+  margin-top: 20px;
+  background-color: #5a31fc;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.faq-image{
+  float: right;
+  z-index: 1;
+}
+
+.download-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.download-content span{
+  font-weight: 100;
+}
+
+.download-email form input{
+  border: none;
+  background-color: #e9edff;
+  padding: 10px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  text-align: left;
+}
+
+
+.download-email form button{
+  background-color: #5a31fc;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.footer-left{
+  margin-top: 80px;
+ 
+}
+
+.footer-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4516fe;
+  margin-top: 80px;
+  padding: 50px;
+}
+
+.footer-logo{
+  margin-left: 55px;
+}
+
+.list{
+  display: flex;
+  margin-left: 55px;
+}
+
+.list-items{
+  color: #fff;
+  margin-right: 20px;
+  font-size: 12px;
+  list-style-type:none;;
+}
+
+.footer-right{
+  margin-right: 55px;
+
+}
+.footer-logos{
+  margin-left: 10px;
+}
+
+.logos-list{
+  display: flex;
+}
+
+
