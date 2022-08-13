@@ -25,6 +25,10 @@ nav {
 
 }
 
+.bi{
+  display: none;
+}
+
 .nav-item {
   margin-top: 30px;
   padding-right: 20px;
@@ -125,9 +129,7 @@ nav svg {
 
 .blog-card{
   display: inline-flex;
-  
-  margin-top: 20px;
-  
+  margin-top: 20px; 
 }
 
 .blog-content{
@@ -164,6 +166,7 @@ nav svg {
 }
 
 .faq-section{
+  background-color: #e9edff;
   margin-top: 65px;
   display: flex;
   justify-content: space-between;
@@ -171,7 +174,6 @@ nav svg {
 
 .faq-content{
   display: block;
-  background-color: #e9edff;
   align-self: center;
   padding: 31px;
   padding-right: 300px;
@@ -220,9 +222,15 @@ nav svg {
   font-weight: 100;
 }
 
+form{
+  background-color: #e9edff;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
 .download-email form input{
   border: none;
-  background-color: #e9edff;
+  background-color: transparent;
   padding: 10px;
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
@@ -270,14 +278,240 @@ nav svg {
 
 .footer-right{
   margin-right: 55px;
-
 }
+
 .footer-logos{
   margin-left: 10px;
 }
 
 .logos-list{
   display: flex;
+}
+
+@media screen and (max-width:950px){
+    .nav-item, .nav-item-active{
+      display: none;
+    }
+
+    .bi{
+      display: block;
+      color: #fff;
+      position: relative;
+      top: 20px;
+    }
+
+    .logo{
+      width: 90px;
+      margin-left: 20px;
+      top: 20px;
+    }
+
+    nav {
+      margin-right: 20px;
+    }
+
+    .header-text {
+      margin-top: 40px;
+      margin-left: 20px;
+    }
+    
+    .header-text h2 {
+      font-size: 25px;
+    }
+
+    .header-image {
+      top: 250px;
+      width: 350px;
+    }
+
+    .companies{
+      margin-top: 10px;
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+    
+    .company-items{
+      font-size: 12px;
+    }
+
+    .api-heading{
+      margin-top: 40px;
+      text-align: center;
+      line-height: 30px;
+    }
+
+    .cards{
+      flex-direction: column;      
+    }
+
+    .card-active{
+      background-color: #fff;
+      padding: 10px 10px;
+      width: 250px;
+      height: 160px;
+    }
+
+    .card{
+      margin-top: 20px;
+      padding: 10px 10px;
+      width: 250px;
+      height: 160px;
+    }
+
+    .blog-heading{
+      margin-left: 0px;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .blog-cards{
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .blog-image img{
+      width: 170px;
+    }
+
+    .blog-card{
+      margin-top: 20px;
+      margin-bottom: 20px; 
+    }
+
+    .blog-content h6{
+      margin-top: 10px;      
+    }
+
+    .blog-content{
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    .blog-content h3{
+      padding-top: 5px;
+      font-size: 15px;
+    }
+
+    small{
+      font-size: 12px;
+    }
+
+    .blog-bottom{
+      margin-left: 46%;
+      margin-top: 43%;
+    }
+    
+    .blog-author{
+      margin-left: 62%;
+      margin-top: 50%;
+    }
+
+    .faq-section{
+      flex-direction: column;
+    }
+
+    .faq-image img{
+      width: 350px;
+      margin-top: 20px;
+    }
+
+    .faq-image{
+      align-self: flex-end;
+    }
+
+    .faq-content{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      padding-right: 0px;
+    }
+
+    .faq-content h2{
+      margin-left: 20px;
+    }
+    
+    .faq-content h4{
+      padding-top: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .faq-content :nth-child(3){
+      font-size: 14px;
+    }
+
+    .faq-content button{
+      margin-left: 20px;
+      margin-top: 15px;
+    }
+
+    .download-section{
+      flex-direction: column;
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .download-content h1{
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    form{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footer-left{
+      margin-top: 0px;
+    }
+
+    .footer-section{
+      flex-direction: column;
+      justify-content: start;
+      margin-top: 50px;
+      padding: 30px;
+    }
+
+    .footer-logo{
+      margin-left: 20px;
+      width: 80px;
+    }
+
+    .list{
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .footer-right{
+      margin-right: 0px;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
+
+    .footer-logos{
+      margin-left: 10px;
+    }
+
+    .logos-list{
+      margin-left: 10px;
+    }
+
+  
+
+
+
+
+
+
+
+    
+
 }
 
 
